@@ -1,4 +1,5 @@
 
+import { koalas } from './koalas.js' 
 let activeKoala = null
 
 // Changes the active koala, then re-renders the page to display that koala
@@ -127,3 +128,6 @@ let renderActiveKoala = koala => {
 
 // Render the page after all functions are defined
 render()
+
+
+
